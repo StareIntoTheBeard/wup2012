@@ -5,9 +5,10 @@
 #   gem 'sqlite3'
 development:
   adapter: mysql
-  database: db/development.sqlite3
-  username:
-  password:
+  socket: /Applications/MAMP/tmp/mysql/mysql.sock
+  database: wup2012_development
+  username: root
+  password: root
   pool: 5
   timeout: 5000
 
@@ -16,9 +17,10 @@ development:
 # Do not set this db to the same as development or production.
 test: &test
   adapter: mysql
-  database: db/test.sqlite3
-  username:
-  password:
+  socket: /Applications/MAMP/tmp/mysql/mysql.sock
+  database: wup2012_test
+  username: root
+  password: root
   pool: 5
   timeout: 5000
 

@@ -1,7 +1,12 @@
 Wup2012::Application.routes.draw do
 
-  root to: 'main#index'
-  
+  match '/' => 'main#view', :id => 'Home'
+  match '/:id' => 'main#view'
+  match '/:id/edit' => 'main#edit'
+
+
+  resources :main
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

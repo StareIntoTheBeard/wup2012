@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Wup2012</title>
+  <title>Wind Up Pixel</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% flash.each do |key, value| %>
-	<div id='<%= key %>' class="flash">
-		<%= value %>
-	</div><!-- / -->
-<% end %>
+<div id="wrap" class="wrap">
+	<header id="header" class="">
+		<div id="top-box" class="top-box">
+			<div id="flash-box" class="flash-box">
+				<% flash.each do |key, value| %>
+					<div id='<%= key %>' class="flash">
+						<%= value %>
+					</div><!-- /<%= key %> -->
+				<% end %>
+			</div><!-- /flash-box -->
+		</div><!-- /top-box -->
 
-<%= yield %>
+		<div id="wup-name" class="wup-name">
+			<%= image_tag "wup-name.png"  %>
+		</div><!-- /wup-name -->	
+		<div id="above-nav-wrap" class="above-nav-wrap">
+			<%= image_tag "web-strategy.png", {:alt => "Web Strategy", :class => "web-strategy"} %>
+		</div><!-- /above-nav-wrap -->
+		<nav>	
+			<div id="nav-wrap" class="nav-wrap">
+				<%= yield :navigation %>
+			</div><!-- /nav-wrap -->
+			
+		</nav>
 
+		
+	</header><!-- /header -->
+
+		<section id="main" class="">
+			<aside id="page-image">
+				<%= image_tag "wup-bot.png" %>
+				
+			</aside>
+			<div id="content">
+				<%= yield %>
+			</div>
+			
+	</section><!-- /main -->
+</div><!-- /wrap -->
+<footer>
+	<div>
+		<span class="first">WIND UP PIXEL &#169; 2012</span><span>PH: 312.554.5095</span><span class="last">E: <a href="mailto:contact@winduppixel.com">CONTACT@WINDUPPIXEL.COM</a></span>
+	</div>
+</footer>
 </body>
 </html>
