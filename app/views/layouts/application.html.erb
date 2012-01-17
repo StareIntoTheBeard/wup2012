@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Wind Up Pixel</title>
-  <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
@@ -20,10 +20,10 @@
 		</div><!-- /top-box -->
 
 		<div id="wup-name" class="wup-name">
-			<%= image_tag "wup-name.png"  %>
+			<%= link_to image_tag("wup-name.png", :size => "744x110"), '/' %>
 		</div><!-- /wup-name -->	
 		<div id="above-nav-wrap" class="above-nav-wrap">
-			<%= image_tag "web-strategy.png", {:alt => "Web Strategy", :class => "web-strategy"} %>
+			<%= image_tag "web-strategy.png",:size => "220x23", :alt => "Web Strategy", :class => "web-strategy" %>
 		</div><!-- /above-nav-wrap -->
 		<nav>	
 			<div id="nav-wrap" class="nav-wrap">
@@ -37,19 +37,23 @@
 
 		<section id="main" class="">
 			<aside id="page-image">
-				<%= image_tag "wup-bot.png" %>
-				
+			<% if content_for? :page_image %>
+				<%= yield :page_image %>
+			<% else %>
+				<%= image_tag 'wup-bot.png' %>
+			<% end %>
 			</aside>
 			<div id="content">
 				<%= yield %>
 			</div>
 			
 	</section><!-- /main -->
-</div><!-- /wrap -->
-<footer>
+	<div style="clear:both"></div>
+	<footer>
 	<div>
 		<span class="first">WIND UP PIXEL &#169; 2012</span><span>PH: 312.554.5095</span><span class="last">E: <a href="mailto:contact@winduppixel.com">CONTACT@WINDUPPIXEL.COM</a></span>
 	</div>
 </footer>
+</div><!-- /wrap -->
 </body>
 </html>

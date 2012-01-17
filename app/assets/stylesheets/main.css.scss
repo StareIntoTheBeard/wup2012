@@ -1,11 +1,19 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+::selection, ::-moz-selection {
+	background: #343434;
+	color: #fff;
+}
 
 html, body {
 	height: 100%;
 	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
+
+// html {
+// 	overflow: auto;
+// }
 
 a, a:visited, a:active {
 	color: #fff;
@@ -18,15 +26,18 @@ a:hover {
 p {
 	margin: 10px 0;
 }
+// #wrap {
+// 	min-height: 100%;
+// 	height: auto !important;
+// 	height: 100%;
+// 	margin: 0 auto -15px; /* Footer fix height */
+// }
 #wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -15px; /* Footer fix height */
+	
 }
-
 #wrap, footer {
 	min-width: 900px;
+	overflow: auto;
 }
 
 #top-box {
@@ -66,9 +77,14 @@ nav {
 	padding: 0px 5px;
 
 }
-.nav-ul li:hover {
+.nav-ul li:hover, .nav-ul .active a {
 	color: #FF4444;
-	 text-shadow: 0px 0px 10px #353535;
+ 	text-shadow: 0px 0px 10px #353535;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
 }
 
 .web-strategy {
@@ -79,6 +95,7 @@ nav {
 	position: relative;
 	width: 900px;
 	margin: 0 auto;
+	min-height: 300px;
 }
 #page-image {
 	position: absolute;
@@ -93,6 +110,7 @@ nav {
 	line-height: 1.7em;
 	color: #333;
 	padding-bottom: 15px;
+
 }
 
 footer {

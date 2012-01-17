@@ -1,6 +1,6 @@
 # Be sure to restart your server when you modify this file.
 
-Wup2012::Application.config.session_store :cookie_store, key: '_wup2012_session'
+Wup2012::Application.config.session_store :cookie_store, :key => '_wup2012_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
