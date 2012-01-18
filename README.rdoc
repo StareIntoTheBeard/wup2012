@@ -16,9 +16,18 @@ Place images within:
 
 * app/assets/images
 
+== Git procedure
 
-SD:LFKj;lskadjfas;ldkfj asdfasdf
+When you add/delete/modify files, run the following commands locally
 
-asdlkfjas;dlfkjsa;lkjf;laskdjf
-asdf
-sdflkj
+* git add -A
+* git commit -m 'Message'
+* git push
+
+This commits to GitHub. To pull on the server
+
+* ssh danschuman@winduppixel.com
+* cd <PROJECT DIR>
+* git pull
+* touch tmp/restart.txt
+
