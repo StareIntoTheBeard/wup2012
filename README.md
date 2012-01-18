@@ -1,8 +1,10 @@
-== WUP 2012
+WUP 2012
+========
 
 This is Wind Up Pixel's 2012 site redesign.
 
-== Helpful files
+Helpful files
+-------------
 
 As of right now, this site's a total Rails hack. All the content is located in the file:
 
