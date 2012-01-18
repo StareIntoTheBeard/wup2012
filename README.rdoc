@@ -15,3 +15,18 @@ There are comments in that file.
 Place images within:
 
 * app/assets/images
+
+== Git procedure
+
+When you add/delete/modify files, run the following commands locally
+
+* git add -A
+* git commit -m 'Message'
+* git push
+
+This commits to GitHub. To pull on the server
+
+* ssh danschuman@winduppixel.com
+* cd <PROJECT DIR>
+* git pull
+* touch tmp/restart.txt
