@@ -8,3 +8,6 @@
 //= require jquery-ui
 //= require jquery_ujs
 //= require_tree .
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
