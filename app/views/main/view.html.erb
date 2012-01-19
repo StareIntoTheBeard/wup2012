@@ -1,6 +1,6 @@
 
 <%# This builds the nav menu. They will transform into humanized links %>
-<% nav_menu(:Web_Presence, :Mass_Communication, :Strategy) %>
+<% nav_menu(:Web_Presence, :Communication, :Planning) %>
 
 <% case @nav_path %>
 <%# This are any paths like winduppixel.com/Path_Name %>
@@ -23,7 +23,7 @@
 	<li>Support for Existing Sites</li> 
 	</ul>
 
-<% when 'Mass_Communication' %>
+<% when 'Communication' %>
 
 	<%# Will load "ding.png" instead of WUP logo. %>
 	<% page_image(:ding) %>
@@ -37,7 +37,7 @@
 	<li>Blog and Article Generation</li>
 	</ul>
 
-<% when 'Strategy' %>
+<% when 'Planning' %>
 
 	<%# Will load "ding.png" instead of WUP logo. %>
 	<% page_image(:ding) %>
