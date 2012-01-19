@@ -36,8 +36,7 @@ p {
 	
 }
 #wrap, footer {
-	min-width: 900px;
-	overflow: auto;
+	min-width: 1150px;
 }
 
 #top-box {
@@ -56,13 +55,13 @@ nav {
 }
 
 #above-nav-wrap {
-	width: 900px;
+	width: 1150px;
 	position: relative;
 	margin: 0px auto;
 }
 
 /* #nav-wrap {
-	width: 900px;
+	width: 1150px;
 	margin: 0px auto;
 	position: relative;
 } 
@@ -71,8 +70,8 @@ nav {
 
 #nav-wrap {
 
-	width: 1137px;
-	margin: 0px 0px 0px auto;
+	width: 1150px;
+	margin: 0px auto;
 	position: relative;
 	text-transform:capitalize;
 }
@@ -80,7 +79,7 @@ nav {
 .nav-ul {
 	display: block;
 	position: absolute;
-	left: 355px;
+	left: 575px;
 	top: -5px;
 }
 .nav-ul li {
@@ -101,7 +100,7 @@ nav a:hover {
 
 .web-strategy {
 	position: absolute;
-	right: 450px;
+	left: 355px;
 }
 #main {
 	position: relative;
@@ -121,7 +120,7 @@ nav a:hover {
 	font-size: 13px;
 	line-height: 1.7em;
 	color: #333;
-	padding-bottom: 15px;
+	padding-bottom: 40px;
 }
 
 #content ul {
@@ -142,7 +141,7 @@ footer {
 }
 
 footer div {
-	width: 900px;
+	width: 1150px;
 	padding: 2px 0px;
 	margin: 0px auto;
 	text-align: center;
