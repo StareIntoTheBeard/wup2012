@@ -60,13 +60,15 @@ nav {
 	position: relative;
 	margin: 0px auto;
 }
-/*
-#nav-wrap{
-width: 2000px;
-	margin: 0px 0px 0px 0px;
 
-}
+/* #nav-wrap {
+	width: 900px;
+	margin: 0px auto;
+	position: relative;
+} 
+
 */
+
 #nav-wrap {
 
 	width: 1137px;
@@ -74,6 +76,7 @@ width: 2000px;
 	position: relative;
 	text-transform:capitalize;
 }
+
 .nav-ul {
 	display: block;
 	position: absolute;
