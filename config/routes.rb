@@ -1,8 +1,10 @@
 Wup2012::Application.routes.draw do
 
   match '/' => 'main#view', :id => 'Home'
+  match '/Partners' => 'main#partners'
   match '/:id' => 'main#view'
   match '/:id/edit' => 'main#edit'
+
 
 
   resources :main

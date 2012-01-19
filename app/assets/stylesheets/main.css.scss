@@ -122,6 +122,13 @@ nav a:hover {
 	color: #333;
 	padding-bottom: 40px;
 }
+#main a, #main a:visited, #main a:active {
+	color: #ff4444;
+	text-decoration: none;
+}
+#main a:hover {
+	text-decoration: underline;
+}
 
 #content ul {
 	padding-left: 20px;
