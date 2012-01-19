@@ -1,10 +1,10 @@
 --- 
-web-strategy.png: web-strategy-f5313d634a8f9044ae03fd99deff9514.png
-rails.png: rails-e4b51606cd77fda2615e7439907bfc92.png
-application.css: application-c26d51fb36409a266ff24a2569b202ba.css
-dingus.png: dingus-1c9609bc58b1e77c196de29021583379.png
-wup-name.png: wup-name-15f0789c7500299734f1b712ba418d5c.png
-ding.png: ding-1c9609bc58b1e77c196de29021583379.png
-application.js: application-28647733cd84612bf5e3fa1139aa7f16.js
 wup-bot.png: wup-bot-38208264a45239ad37db1b78f0934ae3.png
+ding.png: ding-1c9609bc58b1e77c196de29021583379.png
+wup-name.png: wup-name-15f0789c7500299734f1b712ba418d5c.png
+rails.png: rails-e4b51606cd77fda2615e7439907bfc92.png
+application.css: application-6a720e09d0beacbddb1961f42492f0cb.css
+dingus.png: dingus-1c9609bc58b1e77c196de29021583379.png
+application.js: application-28647733cd84612bf5e3fa1139aa7f16.js
 some-file.png: some-file-1c9609bc58b1e77c196de29021583379.png
+web-strategy.png: web-strategy-f5313d634a8f9044ae03fd99deff9514.png
