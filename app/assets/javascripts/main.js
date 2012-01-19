@@ -3,5 +3,5 @@ function animate_footer() {
 }
 
 $(function(){
-	$('#contact_link').click(animate_footer);
+	// $('#contact_link').click(animate_footer);
 });
