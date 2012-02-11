@@ -1,6 +1,5 @@
 == WUP 2012
 
-
 This is Wind Up Pixel's 2012 site redesign.
 
 === Helpful files
