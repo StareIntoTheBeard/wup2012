@@ -130,9 +130,9 @@ padding-top: 1px;
 }
 
 #main {
-	position: relative;
-width: 900px;
-margin: 41px auto 0 auto;
+position: relative;
+width: 938px;
+margin: 41px auto 0 212px;
 min-height: 300px;
 }
 
@@ -143,15 +143,16 @@ top: 3px;
 }
 
 #content {
-	
 width: 445px;
 font-size: 13px;
 line-height: 1.7em;
 color: #333;
 padding-bottom: 40px;
-margin-top: 34px;
+margin-top: -13px;
 float: right;
+margin-right: 15px;
 }
+
 #main a, #main a:visited, #main a:active {
 	color: #ff4444;
 	text-decoration: none;
