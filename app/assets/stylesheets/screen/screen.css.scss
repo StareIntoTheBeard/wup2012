@@ -17,10 +17,12 @@ html, body {
 
 a, a:visited, a:active {
 	color: #fff;
+	text-decoration:none;
 }
 
 a:hover {
 	color: #FF4444;
+	text-decoration:none;
 }
 
 p {
@@ -55,6 +57,7 @@ font-weight: bold;
 font-family: Helvetica, sans-serif;
 margin-bottom: -8px;
 }
+
 nav {
 height: 33px;
 background-color: #353535;
