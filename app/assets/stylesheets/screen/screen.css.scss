@@ -41,16 +41,24 @@ p {
 
 #top-box {
 	background-color: #353535;
-	height: 125px;
+	height: 130px;
 }
 
 #wup-name {
-	text-align: center;
+	position: relative;
+margin-left: 156px;
+z-index: 2;
+font-size: 68px;
+padding-bottom: 5px;
+color: #7B7B7B;
+font-weight: bold;
+font-family: Helvetica, sans-serif;
+margin-bottom: -8px;
 }
 nav {
-	height: 20px;
-	background-color: #353535;
-	color: #fff;
+height: 33px;
+background-color: #353535;
+color: white;
 
 }
 
@@ -77,10 +85,11 @@ nav {
 }
 
 .nav-ul {
-	display: block;
-	position: absolute;
-	left: 575px;
-	top: -5px;
+display: block;
+position: absolute;
+left: 568px;
+top: 0px;
+font-family: Helvetica, sans-serif;
 }
 .nav-ul li {
 	font-size: 28px;
@@ -100,13 +109,24 @@ nav a:hover {
 
 .web-strategy {
 	position: absolute;
-	left: 355px;
+left: 9px;
+background: white;
+height: 36px;
+font-size: 30px;
+margin-top: 0px;
+padding-left: 10px;
+padding-right: 10px;
+color: #7B7B7B;
+font-weight: bold;
+font-family: Helvetica, sans-serif;
+padding-top: 1px;
 }
+
 #main {
 	position: relative;
-	width: 900px;
-	margin: 0 auto;
-	min-height: 300px;
+width: 900px;
+margin: 41px auto 0 auto;
+min-height: 300px;
 }
 #page-image {
 	position: absolute;
@@ -115,12 +135,13 @@ nav a:hover {
 }
 #content {
 	
-	width: 445px;
-	float: right;
-	font-size: 13px;
-	line-height: 1.7em;
-	color: #333;
-	padding-bottom: 40px;
+width: 445px;
+font-size: 13px;
+line-height: 1.7em;
+color: #333;
+padding-bottom: 40px;
+margin-top: 34px;
+float: right;
 }
 #main a, #main a:visited, #main a:active {
 	color: #ff4444;
