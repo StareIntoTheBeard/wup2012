@@ -5,13 +5,13 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: mysql
-  socket: /Applications/MAMP/tmp/mysql/mysql.sock
+  adapter: sqlite3
+  # socket: /Applications/MAMP/tmp/mysql/mysql.sock
   database: wup2012_development
-  username: root
-  password: root
-  pool: 5
-  timeout: 5000
+  # username: root
+  # password: root
+  # pool: 5
+  # timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
