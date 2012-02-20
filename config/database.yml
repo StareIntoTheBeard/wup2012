@@ -7,7 +7,7 @@
 development:
   adapter: sqlite3
   # socket: /Applications/MAMP/tmp/mysql/mysql.sock
-  database: wup2012_development
+  database: db/wup2012_development.sqlite3
   # username: root
   # password: root
   # pool: 5
