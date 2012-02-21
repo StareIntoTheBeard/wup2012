@@ -107,23 +107,18 @@ nav {
 }
 
 #nav-wrap {
-	width:600px; 
-	margin: 0px auto;
-	position:absolute;
-
-	float:right;
-	text-transform:capitalize;
+  width: 1020px;
+  position: relative;
+  text-transform: capitalize;
+  text-align: right;
 }
+
 
 .nav-ul {
-display: block;
-position: absolute;
-left: 588px;
-position: relative;
-right: 0px;
-top: 0px;
-font-family: Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
+
+
 .nav-ul li {
 	font-size: 28px;
 	display: inline-block;
@@ -165,28 +160,31 @@ z-index: 0;
 
 #main {
 position: relative;
-width: 938px;
-margin: 41px auto 0 212px;
-min-height: 400px;
+// width: 938px;
+// margin: 41px auto 0 212px;
+// min-height: 400px;
 }
 
 #page-image {
 position: absolute;
-right: 711px;
+left: 0px;
 top: 3px;
 }
 
 #content {
-width: 445px;
+// width: 445px;
+margin-left: 414px;
+text-shadow: 0.1em 0.1em #fff;
 font-size: 13px;
 line-height: 1.7em;
 color: #333;
-padding: 0 10px 10px 10px;
-margin-top: -13px;
-float: left;
-margin-left: 381px;
+// padding: 0 10px 10px 10px;
+// margin-top: -13px;
+// float: left;
+// margin-left: 381px;
 background: #EEE;
 padding: 0 10px 10px 10px;
+min-height: 400px;
 }
 
 #content h3{
