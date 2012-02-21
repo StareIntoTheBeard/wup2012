@@ -55,17 +55,19 @@
 			<% if content_for? :page_image %>
 				<%= yield :page_image %>
 			<% else %>
-				<%= image_tag 'wup-bot.png' %>
+				<%# image_tag 'wup-bot.png' %>
 			<% end %>
 			</aside>
-				<%= yield %>
+				<div id="content-wrap">
+					<%= yield %>
+				</div>
 			</div>
 			
 	</section><!-- /main -->
 	<div style="clear:both"></div>
 	<footer>
 		<div >
-			<span class="first">WIND UP PIXEL &#169; 2012</span><span>PH: 312.554.5095</span><span class="last">E: <a href="mailto:info@winduppixel.com">CONTACT@WINDUPPIXEL.COM</a></span>
+			<span class="first">WIND UP PIXEL &#169; 2012</span><span class="middle">PH: <a href="tel:+1-312.554.5095">312.554.5095</a></span><span class="last">E: <a href="mailto:info@winduppixel.com">CONTACT@WINDUPPIXEL.COM</a></span>
 		</div>
 	</footer>
 </div><!-- /wrap -->
