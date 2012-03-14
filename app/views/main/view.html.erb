@@ -9,8 +9,10 @@
 	<p>Technology changes the way we live and work everyday. A dependable and informed agency can help your business understand all of the ways our world is constantly changing. At Wind Up Pixel, we help businesses use technology to grow.</p>
 	<p>Come grow with us.</p>
 	<br>
-	<p>For our Certified Partners, <%= link_to "click here", "/Partners" %>.</p>
-	<p>For information on becoming a Wind Up Pixel Certified Partner agency, <a href="mailto:info@winduppixel.com" id="contact_link">contact us</a>.</p>
+	<h3>Collaborate with us.</h3>
+	<p>Most agencies have clients, customers and subcontractors. <br>We have a different name for these wonderful folks &mdash; <span class="boldstuff">collaborators.</span></p><br>
+	<p><span class="boldstuff">Are you a Wind Up Pixel Collaborator?</span>  <%= link_to "Click here", "/Collaborator" %> for more.</p>
+	<p><span class="boldstuff">For information on becoming a Wind Up Pixel Collaborator,</span> <a href="mailto:info@winduppixel.com" id="contact_link">contact us</a>.</p>
 
 <% when 'Web_Presence' %>
   <% @title = "- Web Presence" %>
@@ -50,6 +52,13 @@
 	<li>Web Merchandising Strategy</li>
 	<li>User Experience Planning</li>
 	</ul>
+
+<% when 'Collaborator' %>
+  <% @title = "- Collaborators" %>
+<h2>Wind Up Pixel Collaborator - Coming Soon!</h2>
+	<p>Wind Up Pixel Collaborator is a place for our clients and partner agencies to get up-to-date information on their active projects and to share information with our developers.</p>
+	<p><span class="boldstuff">We're hard at work developing this part of our site!<br>It will be available very soon! </span> </p>
+	<p><%= link_to "Return to our home page", "/" %> 
 
 
 <% when 'non_menu_item' %>
