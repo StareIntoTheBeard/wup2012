@@ -27,7 +27,17 @@ private
 	end
 
 	def nav_path
+		if params[:id] == 'Collaborator'
+			redirect_to 'http://collaborator.winduppixel.com', :status => :moved_permanently
+		elsif params[:id] == 'Web_Presence'
+			redirect_to '/'
+		elsif params[:id] == 'Communication'
+			redirect_to '/'
+		elsif params[:id] == 'Planning'
+			redirect_to '/'
+		else
 		@nav_path = params[:id]
+		end
 	end
 
 	# def authenticate
