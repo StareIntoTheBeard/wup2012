@@ -98,8 +98,9 @@ nav {
 }
 
 #nav-wrap {
-  width: 808px;
-  position: relative;
+  width: 810px;
+  position: relative;	
+  margin-left: -2px;
   text-transform: capitalize;
   text-align: right;
 }
@@ -140,6 +141,7 @@ font-weight: bold;
 font-family: Helvetica, sans-serif;
 padding-top: 1px;
 z-index: 0;
+width:241px;
 }
 
 #logo{
