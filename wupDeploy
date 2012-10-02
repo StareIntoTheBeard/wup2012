@@ -2,7 +2,7 @@ set -e
 
 git reset --hard HEAD
 git clean -f -d
-git pull
+git pull master master
 
 rake assets:clean
 rake assets:precompile
